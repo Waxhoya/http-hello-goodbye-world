@@ -4,7 +4,7 @@
   "description": "Http server using middleware to redirect traffic and messages",
   "main": "server.js",
   "scripts": {
-    "pretest": "eslint ./",   
+    "pretest": "eslint ./",
     "test": "mocha test",
     "start": "node server.js"
   },
@@ -22,5 +22,7 @@
     "chai": "^3.5.0",
     "eslint": "^3.8.1",
     "mocha": "^3.1.2"
+  },
+  "dependencies": {
   }
 }
