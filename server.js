@@ -1,6 +1,8 @@
 const http = require('http');
+const server = require('./lib/httpServer');
 
-const server = http.createServer((req, res) +>{
 
 
-});
+server.listen(port, () => {
+    console.log('server started on port: ', server.address().port);
+})
