@@ -1,9 +1,10 @@
 {
   "name": "http-hello-goodbye-world",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Http server using middleware to redirect traffic and messages",
   "main": "server.js",
   "scripts": {
+    "pretest": "eslint ./",   
     "test": "mocha test",
     "start": "node server.js"
   },
@@ -18,6 +19,8 @@
   },
   "homepage": "https://github.com/Waxhoya/http-hello-goodbye-world#readme",
   "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.8.1",
     "mocha": "^3.1.2"
   }
 }
